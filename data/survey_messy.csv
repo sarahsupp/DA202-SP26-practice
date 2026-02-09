@@ -1,0 +1,16 @@
+studentid,major,Hours_Studied,ExamScore,date,Notes
+1001,Data Analytics,10,88,01/12/2026,late submission
+1002,Biology,6,79,2026-01-12,
+1003,Data Analytics,12,91,1/13/26,NA
+1004,Economics,4,65,13/01/2026,day-month confusion
+1005,Data Analytics,8, 84 ,01-14-2026,"extra spaces in score"
+1006,biology,7,73,01/15/2026,lowercase major
+1007,Data Analytics,11,95,01/15/2026,
+1008,Economics,0,50,01/16/2026,zero hours?
+1009,Data Analytics,,89,01/16/2026,missing hours
+1010,Biology,9,not_recorded,01/17/2026,non-numeric score
+1011,Economics,5,70,01/17/2026,
+1012,Data Analytics,14,97,01/18/2026,
+1013,Biology,3,61,01/18/2026,
+1014,Economics,8,82,01/19/2026,
+1015,Data Analytics,2,58,01/19/2026,

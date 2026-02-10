@@ -2,6 +2,9 @@
 
 This project analyzes student survey data and makes a quick plot + summary.
 
+## Authors
+List name of each code/data author
+
 ## Quick start
 1. Open RStudio
 2. Run `analysis.R`

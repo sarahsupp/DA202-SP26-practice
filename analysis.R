@@ -24,7 +24,7 @@ mean_score <- mean(dat_small$ExamScore)
 cat("Mean exam score (sample):", mean_score, "\n")
 
 # create a plot
-p <- ggplot(dat_small, aes(x = Hours_Studied, y = ExamScore, color = major)) +
+p <- ggplot(dat_small, aes(x = Hours Studied, y = Exam Score, color = major)) +
   geom_point(size = 3) +
   geom_smooth(method = "lm", se = FALSE) +
   ggtitle("Study Hours vs Exam Score")

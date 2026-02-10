@@ -16,7 +16,7 @@ List name of each code/data author
 - It should work on most machines.
 
 ## Output
-A plot should appear and maybe be saved to your computer.
+A plot will appear and be saved to your computer.
 
 ## Data dictionary (maybe)
 - `studentid`: student id

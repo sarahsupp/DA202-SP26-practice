@@ -36,3 +36,5 @@ write.csv(dat_small, "~/Downloads/cleaned_subset.csv", row.names = FALSE)
 
 # "session info" to describe my setup
 sessionInfo()
+
+library(ggplot2)

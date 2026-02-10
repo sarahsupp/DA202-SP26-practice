@@ -2,6 +2,9 @@
 
 This project analyzes student survey data and makes a quick plot + summary.
 
+## Authors
+List name of each code/data author
+
 ## Quick start
 1. Open RStudio
 2. Run `analysis.R`
@@ -13,7 +16,7 @@ This project analyzes student survey data and makes a quick plot + summary.
 - It should work on most machines.
 
 ## Output
-A plot should appear and maybe be saved to your computer.
+A plot will appear and be saved to your computer.
 
 ## Data dictionary (maybe)
 - `studentid`: student id

@@ -2,10 +2,12 @@
 # You should NOT copy this style into real projects :-)
 
 # my machine path
-setwd("~/Desktop/reproducibility-lab")  # <-- will fail for most people
+setwd("~/Desktop/DA 210/DA202-SP26-practice")  # <-- will fail for most people
 
 # packages
-library(tidyverse)   # may not be installed
+install.packages("tidyverse")
+install.packages("lubridate")
+library(tidyverse) # may not be installed
 library(lubridate)   # may not be installed
 
 # read in the data from my machine

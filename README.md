@@ -1,7 +1,7 @@
 # Reproducibility Practice Repo
 
 This project analyzes student survey data and makes a quick plot + summary.
-
+%
 ## Authors
 List name of each code/data author
 
@@ -22,5 +22,5 @@ A plot will appear and be saved to your computer.
 - `studentid`: student id
 - `major`: student major
 - `Hours_Studied`: hours studied
-- `ExamScore`: score
+- `ExamScore`: exam score out of 100
 - `date`: date of survey

@@ -2,7 +2,7 @@
 # You should NOT copy this style into real projects :-)
 
 # my machine path
-setwd("~/Desktop/DA 210/DA202-SP26-practice")  # <-- will fail for most people
+setwd("C:\\DA202-SP26-practice\\data")  #change working directory
 
 # packages
 install.packages("tidyverse")
@@ -14,7 +14,11 @@ library(lubridate)   # may not be installed
 dat <- read.csv("survey_messy.csv")
 
 # types are in the data; I think the data are clean
-dat$date <- mdy(dat$date)  # may fail depending on date format
+#dat$date <- mdy(dat$date)  # may fail depending on date format
+#commented function out from above to provide one that will actually clean dates effectively
+dat$date <- parse_date_time(
+  dat$date, orders = c("mdy", "ymd", "dmy")
+)
 
 # random sampling
 dat_small <- dat %>% sample_n(12)

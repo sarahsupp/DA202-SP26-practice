@@ -24,6 +24,10 @@ dat$date <- parse_date_time(
 dat_small <- dat %>% sample_n(12)
 
 # compute a summary
+#mean_score not working; need to change values to numeric and filter out nulls
+dat_small <- dat_small %>%
+  filter(ExamScore != "NULL")
+dat_small$ExamScore <- as.numeric(dat_small$ExamScore)
 mean_score <- mean(dat_small$ExamScore)
 cat("Mean exam score (sample):", mean_score, "\n")
 

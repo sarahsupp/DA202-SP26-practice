@@ -1,0 +1,12 @@
+"studentid","major","Hours_Studied","ExamScore","date","Notes"
+1012,"Data Analytics",14,97,2026-01-18,""
+1006,"biology",7,73,2026-01-15,"lowercase major"
+1001,"Data Analytics",10,88,2026-01-12,"late submission"
+1009,"Data Analytics",NA,89,2026-01-16,"missing hours"
+1008,"Economics",0,50,2026-01-16,"zero hours?"
+1014,"Economics",8,82,2026-01-19,""
+1005,"Data Analytics",8,84,2026-01-14,"extra spaces in score"
+1002,"Biology",6,79,2026-01-12,""
+1004,"Economics",4,65,2026-01-13,"day-month confusion"
+1003,"Data Analytics",12,91,2026-01-13,NA
+1007,"Data Analytics",11,95,2026-01-15,""

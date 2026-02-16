@@ -32,7 +32,7 @@ mean_score <- mean(dat_small$ExamScore)
 cat("Mean exam score (sample):", mean_score, "\n")
 
 # create a plot
-p <- ggplot(dat_small, aes(x = Hours Studied, y = Exam Score, color = major)) +
+p <- ggplot(dat_small, aes(x = Hours_Studied, y = ExamScore, color = major)) +
   geom_point(size = 3) +
   geom_smooth(method = "lm", se = FALSE) +
   ggtitle("Study Hours vs Exam Score")
@@ -40,7 +40,7 @@ p <- ggplot(dat_small, aes(x = Hours Studied, y = Exam Score, color = major)) +
 ggsave("results/plot.png", p, width = 7, height = 5)  # results/ probably missing
 
 # write output to my machine
-write.csv(dat_small, "~/Downloads/cleaned_subset.csv", row.names = FALSE)
+write.csv(dat_small, "results/cleaned_subset.csv", row.names = FALSE)
 
 # "session info" to describe my setup
 sessionInfo()
